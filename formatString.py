@@ -1,0 +1,7 @@
+name = input("Enter Name: ")
+mobile = input("Enter Mobile: ")
+item = input("Enter Item: ")
+rate = int(input("Enter Rate: "))
+qnty = int(input("Enter Quantity: "))
+print("*************************")
+print(f"Hey {name}, Your Bill is {rate*qnty}")
